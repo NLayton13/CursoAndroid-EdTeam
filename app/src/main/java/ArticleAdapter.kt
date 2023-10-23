@@ -4,9 +4,12 @@ import android.util.Size
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cursoedteam.R
+import com.example.cursoedteam.databinding.ImageviewBinding
+import com.example.cursoedteam.loadFromUrl
 
 class ArticleAdapter: RecyclerView.Adapter<ArticleAdapter.ArticleAdapterViewHolder>() {
 
@@ -36,10 +39,11 @@ class ArticleAdapter: RecyclerView.Adapter<ArticleAdapter.ArticleAdapterViewHold
     class ArticleAdapterViewHolder(view: View): RecyclerView.ViewHolder(view){
         private val  title : TextView = view.findViewById(R.id.title)
         private  val content : TextView = view.findViewById(R.id.content)
-
+        private  val image : ImageView = view.findViewById(R.id.img_news_item)
         fun bind(article: Article){
             title.text = article.title
             content.text = article.content
+            image.loadFromUrl(article.urlToImage)
         }
     }
 
