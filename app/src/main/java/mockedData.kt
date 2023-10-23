@@ -6,36 +6,36 @@ val mockedData
             "10 tip para adelgazar",
             "Contenido",
             "https://www.google.com.mx/",
-            "https://picsum.photos/id/1/200/200"
+            "https://picsum.photos/id/200/200"
         ),
         Article(
             "10 tip para verte mejor",
             "Contenido",
             "https://www.google.com.mx/",
-            "https://picsum.photos/id/1/201/200"
+            "https://picsum.photos/id/201/200"
         ),
         Article(
             "10 tip para adelgazar",
             "Contenido",
             "https://www.google.com.mx/",
-            "https://picsum.photos/id/1/202/200"
+            "https://picsum.photos/id/202/200"
         ),
         Article(
             "10 tip para verte mejor",
             "Contenido",
             "https://www.google.com.mx/",
-           "https://picsum.photos/id/1/203/200"
+           "https://picsum.photos/id/203/200"
         ),
         Article(
             "10 tip para adelgazar",
             "Contenido",
             "https://www.google.com.mx/",
-            "https://picsum.photos/id/1/204/200"
+            "https://picsum.photos/id/204/200"
         ),
         Article(
             "10 tip para verte mejor",
             "Contenido",
             "https://www.google.com.mx/",
-            "https://picsum.photos/id/1/205/200"
+            "https://picsum.photos/id/212/200"
         )
     )

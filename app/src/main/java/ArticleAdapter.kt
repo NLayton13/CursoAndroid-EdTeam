@@ -30,6 +30,7 @@ class ArticleAdapter: RecyclerView.Adapter<ArticleAdapter.ArticleAdapterViewHold
 
     override fun onBindViewHolder(holder: ArticleAdapter.ArticleAdapterViewHolder, position: Int) {
         val articles= articles[position]
+        holder.bind(articles)
     }
 
     override fun getItemCount(): Int {
