@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CursoEdTeam</string>
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="texto_normal">texto normal:</string>
+</resources>
