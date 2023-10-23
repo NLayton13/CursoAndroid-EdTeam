@@ -13,33 +13,6 @@ import com.example.cursoedteam.loadFromUrl
 
 class ArticleAdapter: RecyclerView.Adapter<ArticleAdapter.ArticleAdapterViewHolder>() {
 
-<<<<<<< HEAD
-=======
-    var articles = listOf<Article>()
-        set(value){
-            field = value
-            notifyDataSetChanged()
-        }
-    override fun onCreateViewHolder(
-        parent: ViewGroup,
-        viewType: Int
-    ): ArticleAdapterViewHolder {
-        val view = LayoutInflater
-            .from(parent.context)
-            .inflate(R.layout.images_news, parent, false)
-        return ArticleAdapterViewHolder(view)
-    }
-
-    override fun onBindViewHolder(holder: ArticleAdapter.ArticleAdapterViewHolder, position: Int) {
-        val articles= articles[position]
-        holder.bind(articles)
-    }
-
-    override fun getItemCount(): Int {
-        return articles.size
-    }
-
->>>>>>> master
     class ArticleAdapterViewHolder(view: View): RecyclerView.ViewHolder(view){
         private val  title : TextView = view.findViewById(R.id.title)
         private  val content : TextView = view.findViewById(R.id.content)
