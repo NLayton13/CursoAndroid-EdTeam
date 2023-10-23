@@ -16,3 +16,11 @@ fun ImageView.loadFromUrl(url: String, listeners: RequestListener<Drawable>){
         .addListener(listeners)
         .into(this)
 }
+fun ImageView.loadFromUrl(url: String){
+    Glide
+        .with(this)
+        .load(url)
+        .diskCacheStrategy(DiskCacheStrategy.NONE)
+        .skipMemoryCache(true)
+        .into(this)
+}
